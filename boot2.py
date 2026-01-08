@@ -11,7 +11,7 @@ def rearrangeArray(nums):
 
     result = []
     
-    # Merging them alternately starting with positive
+    # Merging them alternately starting with positive   
     for i in range(len(positives)):
         result.append(positives[i])
         result.append(negatives[i])
